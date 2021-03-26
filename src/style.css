@@ -1,0 +1,50 @@
+:root {
+  --primary-color: #f2eaea;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+body {
+  font-family: "Permanent Marker" !important;
+}
+
+.hero {
+  background-color: var(--primary-color);
+  padding: 110px 20px 90px 20px;
+  margin: 50px 0 10px 0;
+}
+h1 {
+  font-size: 48px !important;
+}
+
+.navigation-links {
+  display: flex;
+  justify-content: center;
+  margin: 40px 20px 0 20px;
+}
+
+.navigation-links a {
+  padding: 20px;
+  border: 0.5px solid black;
+  border-radius: 4px;
+  color: black;
+  margin: 20px;
+  text-decoration: none;
+  box-shadow: var(--box-shadow);
+}
+.about-link:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+.contact-link {
+  background-color: #ffffff;
+}
+.contact-link:hover {
+  color: #000000;
+}
+
+.project-description {
+  padding: 60px 40px;
+}
+footer {
+  background-color: var(--primary-color);
+  padding: 30px;
+}
